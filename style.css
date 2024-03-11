@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  width: 17.9rem;
+  height: 15rem;
+  border: 0px solid white;
+  border-radius: 10px;
+}
+
+.fonteref {
+  display: inline-block; 
+  margin-left: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(64, 63, 65);
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: linear-gradient(to top, rgb(221, 7, 78),  rgb(235, 129, 59));
+  border: 1px solid   rgb(235, 129, 59);
+}
+
+.btn-primary:hover {
+  border: 1px solid white;
+  border: 1px solid  rgb(221, 7, 78);
+}
+
+.left-text {
+  position: absolute; 
+  width: 40%; 
+  top: 3.1rem;
+  left: 3rem;
+  padding: 3.5rem;
+  max-width: 25rem;
+  max-height: 50rem;
+  text-align: left;
+  font-family: "Dangrek", sans-serif;
+  font-size: 70px;
+}
+
+.lt1 {
+  background: linear-gradient(to top, rgb(221, 7, 78),  rgb(235, 129, 59));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.lt2 {
+  position: absolute; 
+  width: 25rem;
+  height: 30rem;
+  top: 4.5rem;
+  right: 3rem;
+  padding: 3.5rem;
+  max-width: 25rem;
+  max-height: 50rem;
+}
+
